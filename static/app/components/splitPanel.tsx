@@ -203,7 +203,7 @@ const SplitPanelContainer = styled('div')<{
 
   position: relative;
   display: grid;
-  overflow: auto;
+  overflow: hidden;
   grid-template-${p => p.orientation}: ${p => p.size} auto 1fr;
 
   &.disable-iframe-pointer iframe {
